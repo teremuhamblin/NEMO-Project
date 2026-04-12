@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Ouvrir un terminal ici
+Comment=Ouvre un terminal dans ce dossier
+Exec=/opt/nemo-project/actions/scripts/open-terminal.sh %F
+Icon-Name=utilities-terminal
+Selection=Any
+Extensions=any;
+Quote=double
