@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Suppression sécurisée
+Comment=Efface le fichier de manière irréversible
+Exec=/opt/nemo-project/actions/scripts/secure-delete.sh %F
+Icon-Name=user-trash
+Selection=Any
+Extensions=any;
+Quote=double
