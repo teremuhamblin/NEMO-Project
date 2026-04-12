@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Calculer SHA256
+Comment=Calcule et copie le checksum SHA256
+Exec=/opt/nemo-project/actions/scripts/sha256sum.sh %F
+Icon-Name=accessories-calculator
+Selection=Any
+Extensions=any;
+Quote=double
