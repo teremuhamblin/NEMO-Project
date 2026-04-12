@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Optimiser l’image
+Comment=Optimise JPEG/PNG sans perte visible
+Exec=/opt/nemo-project/actions/scripts/optimize-image.sh %F
+Icon-Name=image-x-generic
+Selection=Any
+Extensions=jpg;jpeg;png;
+Quote=double
