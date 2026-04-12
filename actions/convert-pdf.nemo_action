@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Convertir en PDF
+Comment=Convertit le fichier en PDF via LibreOffice
+Exec=/opt/nemo-project/actions/scripts/convert-pdf.sh %F
+Icon-Name=application-pdf
+Selection=Any
+Extensions=doc;docx;odt;xls;xlsx;ppt;pptx;
+Quote=double
