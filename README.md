@@ -1,4 +1,4 @@
-# Nemo-cinnamon 
+# Nemo-Project 
 
 Projet modulaire pour améliorer, optimiser et étendre le gestionnaire de fichiers **Nemo** sous Linux Mint Cinnamon.
 
