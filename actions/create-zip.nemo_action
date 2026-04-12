@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Créer une archive ZIP
+Comment=Compresse le fichier ou dossier sélectionné
+Exec=/opt/nemo-project/actions/scripts/create-zip.sh %F
+Icon-Name=package-x-generic
+Selection=Any
+Extensions=any;
+Quote=double
