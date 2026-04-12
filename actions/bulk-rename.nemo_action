@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Renommer en masse
+Comment=Ouvre l’outil de renommage en masse de Cinnamon
+Exec=/opt/nemo-project/actions/scripts/bulk-rename.sh %F
+Icon-Name=edit-rename
+Selection=Any
+Extensions=any;
+Quote=double
