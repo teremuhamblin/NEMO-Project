@@ -18,8 +18,8 @@ Cette PR regroupe l’ensemble des travaux réalisés pour établir la base du p
 - Tests sous Linux Mint Cinnamon
 
 ## Checklist
-- [ ] Code propre et lisible
-- [ ] Documentation à jour
-- [ ] Aucun fichier inutile
-- [ ] Actions fonctionnelles
-- [ ] Config stable
+- [x] Code propre et lisible
+- [x] Documentation à jour
+- [x] Aucun fichier inutile
+- [x] Actions fonctionnelles
+- [x] Config stable
