@@ -1,21 +1,44 @@
- # NEMO Ultimate Edition v1.0
+```text
+README.md - markdown
+```
+# 🚀 NEMO PROJECT
+>Ultimate Edition v1.0
 
-Actions, scripts, modules.
+NEMO Ultimate Edition est une distribution complète d’actions, scripts et modules
+pour le gestionnaire de fichiers Nemo (Linux Mint Cinnamon).
 
-Ce pack contient :
-- 20+ actions Nemo
-- Scripts avancés
-- Modules optionnels
-- Outils de test
+✨ Contenu
+- 20+ actions Nemo professionnelles
+- Scripts Bash robustes
+- Modules optionnels (image, PDF, audio, dev)
+- Outils de test (sandbox, intégration)
 - Packaging .deb
 - Installeur automatique
+- Désinstalleur propre
 
-
-## Installer
+📦 Installation
+`
 bash tools/install.sh
+`
 
-## Désinstaller
+❌ Désinstallation
+`
 bash tools/uninstall.sh
+`
 
-## Redémarrer Nemo
-nemo -q
+🧪 Tests
+`
+./tests/integration_test.sh
+`
+
+🛠️ Développement
+Compatible :
+- Linux Mint 20+
+- Nemo 4.x / 5.x
+- Cinnamon Desktop
+
+🏆 Auteur
+The MadDoG.tmdg — NEMO-PROJECT
+`
+
+---
