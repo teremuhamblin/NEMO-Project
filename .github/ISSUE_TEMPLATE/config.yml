@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 📚 Documentation NEMO-PROJECT
+    url: https://github.com/teremuhamblin/NEMO-PROJECT/docs
+    about: Consulte la documentation avant d’ouvrir une issue.
+
+  - name: 💬 Discussions / Questions
+    url: https://github.com/teremuhamblin/NEMO-PROJECT/discussions
+    about: Pour les questions générales ou idées non finalisées.
