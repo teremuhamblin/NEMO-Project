@@ -1,0 +1,77 @@
+[
+  {
+    "name": "bug",
+    "color": "d73a4a",
+    "description": "Un bug dans une action, un script ou la configuration"
+  },
+  {
+    "name": "feature",
+    "color": "a2eeef",
+    "description": "Nouvelle fonctionnalité ou nouvelle action Nemo"
+  },
+  {
+    "name": "enhancement",
+    "color": "0366d6",
+    "description": "Amélioration d’un élément existant"
+  },
+  {
+    "name": "security",
+    "color": "b60205",
+    "description": "Problème ou amélioration liée à la sécurité"
+  },
+  {
+    "name": "documentation",
+    "color": "0075ca",
+    "description": "Documentation à créer ou mettre à jour"
+  },
+  {
+    "name": "config",
+    "color": "cfd3d7",
+    "description": "Modifications liées au dossier config/ (nemo.conf, modules.conf)"
+  },
+  {
+    "name": "scripts",
+    "color": "5319e7",
+    "description": "Modifications ou ajouts de scripts Bash"
+  },
+  {
+    "name": "actions",
+    "color": "0e8a16",
+    "description": "Modifications ou ajouts d’actions Nemo"
+  },
+  {
+    "name": "priority: high",
+    "color": "b60205",
+    "description": "Doit être traité en priorité"
+  },
+  {
+    "name": "priority: medium",
+    "color": "fbca04",
+    "description": "Priorité intermédiaire"
+  },
+  {
+    "name": "priority: low",
+    "color": "0e8a16",
+    "description": "Peut être traité plus tard"
+  },
+  {
+    "name": "status: todo",
+    "color": "d876e3",
+    "description": "Tâche à faire"
+  },
+  {
+    "name": "status: in-progress",
+    "color": "1d76db",
+    "description": "Travail en cours"
+  },
+  {
+    "name": "status: blocked",
+    "color": "b60205",
+    "description": "Bloqué en attente d’un élément"
+  },
+  {
+    "name": "status: done",
+    "color": "0e8a16",
+    "description": "Tâche terminée"
+  }
+]
