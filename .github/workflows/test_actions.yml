@@ -1,0 +1,23 @@
+name: Test Nemo Actions
+
+on:
+  push:
+    paths:
+      - "actions/**"
+      - "scripts/**"
+      - "tests/**"
+  pull_request:
+
+jobs:
+  test-actions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Make test script executable
+        run: chmod +x tests/test_actions.sh
+
+      - name: Run Nemo actions tests
+        run: ./scripts/tests/test_actions.sh
