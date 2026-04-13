@@ -1,0 +1,7 @@
+[Nemo Action]
+Name=Ouvrir dans VSCode
+Comment=Ouvre le dossier dans Visual Studio Code
+Exec=open-in-vscode.sh %P
+Icon=applications-development
+Selection=Any
+Extensions=any;
