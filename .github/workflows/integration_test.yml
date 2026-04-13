@@ -1,0 +1,24 @@
+name: Integration Test
+
+on:
+  push:
+    paths:
+      - "actions/**"
+      - "scripts/**"
+      - "config/**"
+      - "tests/**"
+  pull_request:
+
+jobs:
+  integration-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Make test scripts executable
+        run: chmod +x tests/*.sh
+
+      - name: Run integration test
+        run: ./tests/integration_test.sh
