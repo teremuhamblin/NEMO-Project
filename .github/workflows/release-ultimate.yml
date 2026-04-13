@@ -1,0 +1,30 @@
+name: Release Ultimate Edition
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "ultimate-v*.*.*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build .deb package
+        run: |
+          chmod +x tools/build_deb.sh
+          ./tools/build_deb.sh
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            nemo-project.deb
+            ultimate/**
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
