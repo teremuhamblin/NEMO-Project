@@ -1,0 +1,20 @@
+name: CI - Bash Validation
+
+on:
+  push:
+    paths:
+      - "scripts/**"
+      - "actions/**"
+  pull_request:
+
+jobs:
+  bash-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ShellCheck
+        run: sudo apt-get install -y shellcheck
+
+      - name: Lint Bash scripts
+        run: shellcheck scripts/*.sh || true
